@@ -1,5 +1,30 @@
 {
   "dependencies": {
     "node-fetch": "^2.6.1"
-  }
+  },
+  "name": "santa-clara-covid-test-bot",
+  "version": "1.0.0",
+  "description": "repeatedly check for a COVID test appointment availability on a given day until one is found ",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mngyuan/santa-clara-covid-test-bot.git"
+  },
+  "keywords": [
+    "covid",
+    "bot",
+    "santa",
+    "clara",
+    "california"
+  ],
+  "author": "mngyuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mngyuan/santa-clara-covid-test-bot/issues"
+  },
+  "homepage": "https://github.com/mngyuan/santa-clara-covid-test-bot#readme"
 }

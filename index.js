@@ -39,4 +39,7 @@ async function findAppointment(date) {
   }
 }
 
-findAppointment('2020-12-18');
+// uses date of format YYYY-MM-DD
+const targetDate = process.argv[2] || new Date().toISOString().slice(0, 10);
+console.log('Searching for an appointment on', targetDate);
+findAppointment(targetDate);
